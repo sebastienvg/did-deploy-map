@@ -7,31 +7,31 @@ admin-servers
 mongodb-servers
 
 [proxy-servers]
-ULM-NGX-01	ansible_host=10.156.5.133 ansible_user=sebastien
-ULM-NGX-02	ansible_host=10.156.5.242 ansible_user=sebastien
+ULM-NGX-01	
+ULM-NGX-02
 
 [platform-servers]
-ULM-PLF-01	ansible_host=10.156.5.134 ansible_user=sebastien        
-ULM-PLF-02	ansible_host=10.156.5.243 ansible_user=sebastien        
-ULM-PLF-03	ansible_host=10.156.5.244 ansible_user=sebastien        
+ULM-PLF-01	 
+ULM-PLF-02	
+ULM-PLF-03	
 
 [data-servers]
-ULM-GAL-01	ansible_host=10.156.5.135 ansible_user=sebastien        
-ULM-GAL-02	ansbile_host=10.156.5.245 ansible_user=sebastien        
-ULM-GAL-03	ansible_host=10.156.5.246 ansible_user=sebastien        
+ULM-GAL-01	 
+ULM-GAL-02	
+ULM-GAL-03	
 
 [admin-servers]
-ULM-ADM-01	ansible_host=10.156.5.136 ansible_user=sebastien        
-ULM-ADM-02	ansible_host=10.156.5.247 ansible_user=sebastien        
+ULM-ADM-01	
+ULM-ADM-02	
 
 [mongodb-servers]
-ULM-MGO-01	ansible_host=10.156.5.137 ansible_user=sebastien        
-ULM-MGO-02	ansible_host=10.156.5.248 ansible_user=sebastien        
-ULM-ADM-01	ansible_host=10.156.5.136 ansible_user=sebastien
+ULM-MGO-01	
+ULM-MGO-02	
+ULM-ADM-01	
 
 [mongodb-servers-active]
-ULM-MGO-01	ansible_host=10.156.5.137 ansible_user=sebastien        
-ULM-MGO-02	ansible_host=10.156.5.248 ansible_user=sebastien
+ULM-MGO-01	
+ULM-MGO-02	
 
 [mongodb-servers-arbiter]
-ULM-ADM-01	ansible_hosts=10.156.5.136 ansible_user=sebastien
+ULM-ADM-01	.
