@@ -6,8 +6,7 @@ admin-servers
 mongodb-servers
 
 [common-servers:vars]
-vars_files:
-  - '/root/{{ tower_env }}/vault.yml'
+vars_files='/root/{{ tower_env }}/vault.yml'
 
 [proxy-servers]
 ULM-NGX-01	
