@@ -6,7 +6,7 @@ admin-servers
 mongodb-servers
 
 [common-servers:vars]
-vars_files='/root/{{ tower_env }}/vault.yml'
+vault_password_file='/root/{{ tower_env }}/vault.yml'
 
 [proxy-servers]
 ULM-NGX-01	
@@ -30,6 +30,9 @@ ULM-ADM-02
 ULM-MGO-01	
 ULM-MGO-02	
 ULM-ADM-01	
+
+[mongo-servers:vars]
+vault_password_file='/root/{{ tower_env }}/vault.yml'
 
 [mongodb-servers-active]
 ULM-MGO-01	
