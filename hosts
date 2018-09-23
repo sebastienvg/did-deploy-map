@@ -31,7 +31,7 @@ ULM-MGO-01
 ULM-MGO-02	
 ULM-ADM-01	
 
-[mongo-servers:vars]
+[mongodb-servers:vars]
 vault_password_file='/root/{{ tower_env }}/vault.yml'
 
 [mongodb-servers-active]
