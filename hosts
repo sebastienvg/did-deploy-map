@@ -1,4 +1,3 @@
-#####################  Ansible Inventory ###################
 [common-servers:children]
 proxy-servers
 platform-servers
@@ -34,4 +33,4 @@ ULM-MGO-01
 ULM-MGO-02	
 
 [mongodb-servers-arbiter]
-ULM-ADM-01	.
+ULM-ADM-01
