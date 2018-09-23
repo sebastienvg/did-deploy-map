@@ -1,1 +1,2 @@
-ansbile_host=10.156.5.245 ansible_user=sebastien
+ansbile_host: 10.156.5.245 
+ansible_user: sebastien
